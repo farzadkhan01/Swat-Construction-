@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.general-title h2 {
+    font-size: 5rem;
+}
+
+.general-title p {
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: -1px;
+
+}
+
+.mt-6 {
+    margin-top: 7rem !important;
+}
+
+/* ==================================== */
+/* section-1 hero section */
+
+.hero-secition {
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar-brand img {
+    width: 10%;
+}
+
+.navbar-brand h5 {
+    font-size: 24px;
+    letter-spacing: -2px;
+    margin: 0;
+    color: #000000c2;
+}
+
+.nav-spacing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url('../Images/hero-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.hero-image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.69);
+    z-index: 1;
+}
+
+.hero-caption {
+    position: absolute;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+}
+
+.hero-caption h3 {
+    font-family: "Bitter", serif;
+    font-size: 5em;
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* section-1 Services */
+.service-alignments {
+    display: flex;
+    align-items: center;
+}
+
+.service-alignments-2 {
+    flex-direction: row-reverse;
+}
+
+.services-image img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.services-image-2 img {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+.services-caption h4 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.services-caption h6 {
+    margin: 20px 0;
+
+}
+
+/* section-3 Workers */
+.about-worker {
+    border: 1px solid #00000000;
+    border-radius: 14px;
+    height: 20rem;
+    -webkit-box-shadow: 0px 0px 43px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 43px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 43px -11px rgba(0, 0, 0, 0.75);
+}
+
+.worker-img h4 {
+    margin: 30px 0px 19px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.worker-caption p {
+    font-size: 18px;
+}
+
+
+/* section-3 Workers */
+.special-height {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.review-caption h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000ba;
+}

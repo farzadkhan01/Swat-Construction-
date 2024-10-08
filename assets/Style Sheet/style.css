@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+:root {
+    --heading-: #001F3F;
+    --Sub-heading-: #;
+    --Text-: #001F3F;
+    --Links-: #001F3F;
+    --background-: #001F3F;
+}
+
 body {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -11,6 +19,7 @@ body {
 
 .general-title h2 {
     font-size: 5rem;
+    font-weight: 700;
 }
 
 .general-title p {
@@ -23,6 +32,15 @@ body {
 
 .mt-6 {
     margin-top: 7rem !important;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
 }
 
 /* ==================================== */
@@ -99,13 +117,14 @@ body {
 .services-image img {
     width: 100%;
     height: 100%;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    filter: brightness(70%);
 }
 
 .services-image-2 img {
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
     border-top-left-radius: 0%;
     border-bottom-left-radius: 0%;
 }
@@ -140,8 +159,156 @@ body {
     font-size: 18px;
 }
 
+/* section-4 customers */
+.customers-background {
+    padding: 45px 10%;
+}
 
-/* section-3 Workers */
+.custumer-alignments {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custumer-alignments img {
+    width: 13%;
+    height: 100%;
+}
+
+
+/* section-5 projects */
+.all-projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 0;
+}
+
+.carousel-item {
+    border: 1px solid #00000045;
+    border-radius: 15px;
+}
+
+.carousel-alignments {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.carousel-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+}
+
+.carousel-indicators {
+    position: relative;
+    margin-right: auto;
+    margin-bottom: auto;
+    justify-content: start;
+    margin-left: auto;
+}
+
+.carousel-indicators [data-bs-target] {
+    flex: none;
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    text-indent: unset;
+    background-clip: unset;
+    border-top: none;
+    border-bottom: none;
+    margin: 15px 4px;
+    border: 1px solid #00000045;
+    border-radius: 15px;
+    color: #ffff;
+    background-color: rgb(0, 0, 0);
+}
+
+.carousel-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.carousel-text h4 {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.carousel-text h5 {
+    font-size: 16px;
+    margin-top: 15%;
+    font-weight: 500;
+}
+
+/* section-6 Orders */
+.order-images {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.order-images::before {
+    content: "";
+    position: absolute;
+    width: 350px;
+    border-radius: 50%;
+    height: 350px;
+    background: #00000000;
+    border: 35px solid #ffc10796;
+    z-index: -1;
+
+}
+
+.worker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.worker img {
+    width: 100%;
+    height: 100%;
+    border: 6px solid #ffff0021;
+    border-radius: 25%;
+    margin: 15px;
+}
+
+.border-right {
+    border-right: 1px solid black;
+    padding: 0 35px 0 20px;
+
+}
+
+.order-caption {
+    padding-left: 60px;
+}
+
+.order-heading h3 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.orders-figer {
+    margin-top: 35px;
+}
+
+.orders-figer h3 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.orders-figer h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* section-7 review */
 .special-height {
     height: 20rem;
     display: flex;
@@ -156,3 +323,65 @@ body {
     font-weight: 600;
     color: #000000ba;
 }
+
+/* section-8 footer */
+.footer-logo-caption h4 {
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 25px;
+}
+
+.pages-link {
+    padding-left: 60px;
+}
+
+.general-footer h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.general-footer ul {
+    padding: 0;
+    margin: 25px 0 0 0;
+    color: #00000000;
+}
+
+.general-footer li {
+    margin: 10px 0;
+}
+
+.contact-information label,
+.contact-textarea label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-information input {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 0 10px 20px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #00000057;
+}
+
+.contact-textarea textarea {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 0 10px 20px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #00000057;
+}
+
+.footer-alignment {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-links i {
+    font-size: 24px;
+    padding: 0 20px;
+}
+

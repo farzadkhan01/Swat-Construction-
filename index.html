@@ -34,9 +34,11 @@
             <section class="hero-section">
 
                 <!-- Navbar -->
-                <nav class="container navbar navbar-expand-lg d-block ">
+                <nav
+                    class="container navbar navbar-expand-lg d-flex align-items-center d-lg-block ">
                     <div class="nav-spacing pt-4">
-                        <div class="nav-toggle">
+                        <div
+                            class="nav-toggle d-flex align-items-center justify-content-lg-between">
 
                             <a class="navbar-brand d-flex align-items-center"
                                 href="#">
@@ -44,14 +46,7 @@
                                     alt="Logo">
                                 <h5>Swat's Construction</h5>
                             </a>
-                            <button class="navbar-toggler" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent"
-                                aria-controls="navbarSupportedContent"
-                                aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
+
                         </div>
                         <div
                             class="collapse navbar-collapse justify-content-end"
@@ -84,6 +79,53 @@
                                     <a class="nav-link fw-bold">Contact Us </a>
                                 </li>
                             </ul>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary d-lg-none"
+                        style="position: absolute; top: 43px; right: 0;"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample"
+                        aria-expanded="false"
+                        aria-controls="collapseExample">
+                        Button with data-bs-target
+                    </button>
+
+                    <div class="toogle-with-collapse text-center w-100 d-lg-none">
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body mt-4">
+                                <ul class="special-ul">
+                                    <li class="nav-item">
+                                        <a class="nav-link fw-bold"
+                                            aria-current="page"
+                                            href="#">Home</a>
+                                    </li>
+                                    <li class>
+                                        <a class="nav-link fw-bold"
+                                            href="#">Services</a>
+                                    </li>
+                                    <li class>
+                                        <a class="nav-link fw-bold">Workers</a>
+                                    </li>
+                                    <li class>
+                                        <a class="nav-link fw-bold">Customer</a>
+                                    </li>
+                                    <li class>
+                                        <a class="nav-link fw-bold">Projects</a>
+                                    </li>
+                                    <li class>
+                                        <a class="nav-link fw-bold">Order</a>
+                                    </li>
+                                    <li class>
+                                        <a class="nav-link fw-bold">Review</a>
+                                    </li>
+                                    <li class>
+                                        <a class="nav-link fw-bold">Contact Us
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -713,7 +755,8 @@
                             </div>
                         </div>
 
-                        <div class="col-6 col-md-4 text-center spacial-margin-top">
+                        <div
+                            class="col-6 col-md-4 text-center spacial-margin-top">
                             <div class="about-worker special-height p-4">
                                 <div
                                     class="review-icons text-center d-flex align-items-center justify-content-center">

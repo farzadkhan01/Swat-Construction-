@@ -27,7 +27,7 @@ body {
     font-weight: 500;
     font-style: italic;
     letter-spacing: -1px;
-
+    text-align: center;
 }
 
 .mt-6 {
@@ -208,6 +208,7 @@ li {
     margin-bottom: auto;
     justify-content: start;
     margin-left: auto;
+    display: block;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -385,3 +386,123 @@ li {
     padding: 0 20px;
 }
 
+@media only screen and (max-width : 1240px) {
+    .worker img {
+        width: 40%;
+        height: 100%;
+    }
+
+    .figer-3 {
+        padding-left: 15px;
+    }
+
+    .special-height {
+        height: 28rem;
+    }
+
+}
+
+@media only screen and (max-width : 992px) {
+    .order-caption {
+        padding-left: 0;
+    }
+
+    .border-right {
+        padding: 0 20px 0 15px;
+    }
+
+    .figer-3 {
+        padding-left: 15px;
+    }
+
+    .special-height {
+        height: 25rem;
+    }
+
+    .order-images::before {
+        width: 250px;
+        height: 250px;
+    }
+
+}
+
+@media only screen and (max-width : 768px) {
+    .services-image img {
+        border-top-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .worker img {
+        width: 50%;
+        height: 100%;
+
+    }
+
+    .pages-link {
+        padding-left: 16px;
+    }
+
+    .special-height {
+        height: 30rem;
+    }
+}
+
+@media only screen and (max-width : 425px) {
+
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6 {
+        width: 100%;
+    }
+
+    .spacial-margin-top {
+        margin-top: 1.5rem !important;
+    }
+
+    .special-height {
+        height: 100%;
+    }
+
+    .special-height {
+        height: 100%;
+    }
+
+    .orders-figer h3 {
+        font-size: 24px;
+    }
+
+    P {
+        font-size: 14px;
+    }
+
+    .hero-caption h3 {
+        font-size: 2em;
+    }
+
+    .general-title h2 {
+        font-size: 3rem;
+    }
+
+    .general-title p {
+        font-size: 16px;
+    }
+
+    .services-caption h4 {
+        font-size: 24px;
+
+    }
+
+    .services-caption h6 {
+        font-size: 14px;
+    }
+
+    .orders-figer h2 {
+        font-size: 12px;
+    }
+
+}

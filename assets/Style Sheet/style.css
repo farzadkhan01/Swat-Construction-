@@ -508,5 +508,11 @@ li {
     .order-images::before {
         width: 170px;
         height: 170px;
+
+    }
+
+    .worker img {
+        width: 45%;
+        height: 100%;
     }
 }

@@ -9,6 +9,7 @@
     --Text-: #001F3F;
     --Links-: #001F3F;
     --background-: #001F3F;
+    --overlay-: rgba(0, 0, 0, 0.413);
 }
 
 body {
@@ -52,7 +53,7 @@ li {
 }
 
 .navbar-brand img {
-    width: 10%;
+    width: 20%;
 }
 
 .navbar-brand h5 {

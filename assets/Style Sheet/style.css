@@ -43,14 +43,6 @@ li {
     list-style: none;
 }
 
-.special-ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
 /* ==================================== */
 /* section-1 hero section */
 
@@ -79,6 +71,15 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.pages-links-small a {
+    padding: 0 0;
+}
+
+.card-body {
+    border-bottom: none;
+    border-radius: 0pc;
 }
 
 .hero-image {

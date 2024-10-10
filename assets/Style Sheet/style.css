@@ -47,7 +47,6 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
     margin: 0;
     padding: 0;
 }
@@ -69,6 +68,11 @@ li {
     letter-spacing: -2px;
     margin: 0;
     color: #000000c2;
+}
+
+.sizing {
+    font-size: 26px;
+    color: #000000b8;
 }
 
 .nav-spacing {

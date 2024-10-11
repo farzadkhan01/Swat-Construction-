@@ -53,7 +53,7 @@ li {
 }
 
 .navbar-brand img {
-    width: 20%;
+    width: 15%;
 }
 
 .navbar-brand h5 {
@@ -74,8 +74,29 @@ li {
     justify-content: space-between;
 }
 
-.pages-links-small a {
-    padding: 0 0;
+.nav-toggle {
+    width: 35%;
+}
+
+
+.pages-links-small a,
+.for-large {
+    padding: 0 15px;
+}
+
+.for-btn button {
+    width: 165px;
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #00000000;
+    align-self: center;
+}
+
+.for-large {
+    width: 200px;
 }
 
 .card-body {
@@ -450,7 +471,7 @@ li {
     }
 
     .worker img {
-        width: 50%;
+        width: 47%;
         height: 100%;
 
     }

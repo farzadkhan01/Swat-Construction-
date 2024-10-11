@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --heading-: #001F3F;
+    --Sub-heading-: #;
+    --Text-: #001F3F;
+    --Links-: #001F3F;
+    --background-: #001F3F;
+    --overlay-: rgba(0, 0, 0, 0.413);
+}
+
+/* ================================================ */
+
+.contact-image-hero {
+    background-image: url('../Images/contact.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -2;
+}
+
+.contact-section {
+    background-color: #74623e;
+    color: white;
+    padding: 4rem 0;
+}
+
+.contact-special h2 {
+    font-size: 3rem;
+}
+
+.contact-special p {
+    font-size: 18px;
+}
+
+.form-left h5 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.form-left h5 span {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.form-right label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.form-right input {
+    border: 1px solid #00000054;
+    border-radius: 5px;
+    padding: 5px 20px;
+    outline: none;
+}
+
+.form-right button {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 9px 50px;
+}
+
+.for-padding {
+    padding: 0 50px;
+}

@@ -21,9 +21,10 @@
             integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="../Style Sheet/style.css">
-        <link rel="stylesheet" href="../Style Sheet/service.css">
-        <link rel="stylesheet" href="../Style Sheet/order.css">
-        <title>Orders</title>
+        <link rel="stylesheet" href="../Style Sheet/contact.css">
+        <link rel="stylesheet" href="../Style Sheet/booking.css">
+
+        <title>Services</title>
     </head>
     <body>
 
@@ -103,8 +104,7 @@
                                         <a href="worker.html"
                                             class="fw-bold d-block mt-3">Workers</a>
                                         <a href="order.html"
-                                            class="fw-bold d-block
-                                            mt-3">Order</a>
+                                            class="fw-bold d-block mt-3">Order</a>
                                         <a href="contact-us.html"
                                             class="fw-bold d-block mt-3">Contact
                                             Us</a>
@@ -119,81 +119,95 @@
                 </div>
 
                 <div class="pages-hero">
-                    <div
-                        class="services-image-hero order-image-hero hero-overlay">
+                    <div class="contact-image-hero hero-overlay">
                         <div
-                            class="services-title hero-positioning general-title d-flex align-items-center justify-content-center flex-column">
-                            <h2>
-                                <i class="fa-solid fa-chart-line"></i>
-                                Orders
+                            class="text-white services-title hero-positioning general-title d-flex align-items-center justify-content-center flex-column">
+                            <h2 >
+                                <i class="fa-brands fa-servicestack"></i>
+                                Construction Order
                             </h2>
-                            <p>Building Your Vision, One Order at a
-                                Time</p>
+                            <p>Quality Services You Can Trust</p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="container Orders mt-6 ">
-                <div class="orders-information">
-                    <div class="row align-items-center">
+            <section class=" contact-section">
+                <div class=" container contact-form-page">
+                    <div
+                        class="services-title contact-special general-title d-flex align-items-center justify-content-center flex-column">
+                        <h2>
+                            Booking For Construction ( Form )
+                        </h2>
+                        <p>Reach Out and Let's Get Started</p>
+                    </div>
+                    <div class="row mt-5">
 
-                        <div class="col-12 col-md-6 mb-md-0 mb-5">
-                            <div class="order-images">
-                                <div class="worker">
-                                    <img src="../Images/worker-5.jpg" alt>
-                                    <img src="../Images/worker-4.jpg" alt>
-                                </div>
-
-                                <div class="worker">
-                                    <img src="../Images/female-5.jpg" alt>
-                                    <img src="../Images/worker-5.jpg" alt>
-                                </div>
+                        <div class="col-12 col-lg-6 for-padding">
+                            <div class="form-left text-center text-lg-start ">
+                                <h5>CEO :
+                                    <span>Saleem Khan</span>
+                                </h5>
+                                <h5>Email :
+                                    <span>saleemkhan09@gmail.com</span>
+                                </h5>
+                                <h5>Phone No. (Telenor) :
+                                    <span>03485184458</span>
+                                </h5>
+                                <h5>Phone No. (Zong) :
+                                    <span>03158648343</span>
+                                </h5>
+                                <h5>Head Office :
+                                    <span>Balochistan, Kech District, Turbat
+                                        Tehsil</span>
+                                </h5>
+                                <h5>Office 1 (Address) :
+                                    <span>Sindh, Shikarpur
+                                        District, Lakhi Taluka, Lakhi Ghulam
+                                        Shah</span>
+                                </h5>
+                                <h5>Office 2 (Address) :
+                                    <span>Punjab, Kalali</span>
+                                </h5>
                             </div>
                         </div>
 
-                        <div class="col-12 col-md-6">
-                            <div
-                                class="order-caption">
-                                <div class="order-heading">
-                                    <h3>
-                                        <i class="fa-solid fa-chart-line"></i>
-                                        Orders
-                                    </h3>
-                                    <h4>Building Your Vision, One Order at a
-                                        Time</h4>
-                                    <h6>We value your trust and strive to
-                                        deliver excellence with every order.
-                                        Your feedback helps us continuously
-                                        improve our services and ensure that
-                                        each project meets the highest
-                                        standards</h6>
-                                </div>
-                                <div
-                                    class="order-info d-flex align-items-center justify-content-between">
-                                    <div
-                                        class="orders-figer border-right figer-1">
-                                        <h3>600+</h3>
-                                        <h2>Completed Orders</h2>
-                                    </div>
-                                    <div
-                                        class="orders-figer border-right figer-2">
-                                        <h3>130+</h3>
-                                        <h2>Work Under Execution</h2>
-                                    </div>
-                                    <div class="orders-figer figer-3">
-                                        <h3>98%</h3>
-                                        <h2>Satisfaction</h2>
+                        <div class="col-12 col-lg-6 for-padding">
+                            <div class="form-right text-center text-lg-start mt-lg-0 mt-5">
+                                <label for="name" class="mt-0">Name :</label>
+                                <input class="w-100" type="text">
 
-                                    </div>
-                                </div>
+                                <label for="email">Email :</label>
+                                <input class="w-100" type="email">
+
+                                <label for="Phone">Phone No.:</label>
+                                <input class="w-100" type="number">
+
+                                <label for="address">Address:</label>
+                                <input class="w-100" type="address">
+
+                                <label for="text">Services :</label>
+                                <select class="form-select"
+                                    aria-label="Default select example">
+                                    <option selected disabled>Select your
+                                        Service</option>
+                                    <option value="1">Full Construction</option>
+                                    <option value="1">Carpenter Service</option>
+                                    <option value="2">Plumber Service</option>
+                                    <option value="3">AC and Wifi
+                                        connection</option>
+                                    <option value="3">Painting Service</option>
+                                </select>
+                                <button class="btn btn-warning rounded-pill"
+                                    type="submit">Submit</button>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
 
-            <hr class="mt-6">
+            <hr class="mt-0">
             <section class="container footer mt-5">
                 <div class="footer-information">
                     <div class="row">
@@ -339,6 +353,7 @@
                     </div>
                 </div>
             </section>
+
         </div>
 
         <script

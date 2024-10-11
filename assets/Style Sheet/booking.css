@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --heading-: #001F3F;
+    --Sub-heading-: #;
+    --Text-: #001F3F;
+    --Links-: #001F3F;
+    --background-: #001F3F;
+    --overlay-: rgba(0, 0, 0, 0.413);
+}
+
+/* ================================================ */
+
+.contact-image-hero {
+    background-image: url('../Images/booking.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -2;
+}
+
+.hero-overlay::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--overlay-);
+    z-index: -1;
+}

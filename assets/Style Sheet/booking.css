@@ -36,3 +36,28 @@
     background-color: var(--overlay-);
     z-index: -1;
 }
+
+@media only screen and (max-width: 992px) {
+    .contact-special h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 835px) {
+    .general-title h2 {
+        font-size: 2.5rem;
+
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .general-title h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .general-title h2 {
+        font-size: 1.5rem;
+    }
+}

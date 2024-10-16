@@ -96,7 +96,16 @@ li {
 }
 
 .for-large {
-    width: 200px;
+    width: 100px;
+}
+
+.navbar-buttons {
+    transition: all 0.3s;
+}
+
+.navbar-buttons button:hover {
+    background-color: #c49405 !important;
+    color: white !important;
 }
 
 .card-body {
@@ -436,6 +445,12 @@ li {
         height: 28rem;
     }
 
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .for-large {
+        width: 77px;
+    }
 }
 
 @media only screen and (max-width : 992px) {

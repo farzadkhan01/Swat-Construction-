@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --heading-: #001F3F;
+    --Sub-heading-: #;
+    --Text-: #001F3F;
+    --Links-: #001F3F;
+    --background-: #001F3F;
+    --overlay-: rgba(0, 0, 0, 0.413);
+}
